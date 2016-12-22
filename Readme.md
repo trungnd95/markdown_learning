@@ -6,29 +6,30 @@ Hello  there - welcome to _mastering markdown_ !
 I'm **super excited** to have you along for the ride
 
 ### Paragraph and Text decoration
-**Text decoration**
-_ ** _ _ : *text inside*
-_ ****: **Text strong**
-_ ~~~~: ~~Demo~~
+**Text decoration** <br/>
++ ** _ _ : *text inside*
++ ****: **Text strong**
++ ~~~~: ~~Demo~~
 
 .....
 
 ### Make link 
 [Google.com](http://google.com)
-[Another way](another)
 
-[another]: 'http://google.com'
+[Another way][another]
+
+[another]: http://google.com
 
 ###Lists
 
-_Unorderd
-    *First
-        *1.1
-        *1.2
-    *Two
-_Orderd
-    1.First
-    1.Second
++ Unorderd
+    * First
+    * Two
++ Orderd
+    1. First
+        * 1.1
+            * 1.1.1
+    1. Second
 
 ###Line break, horizontal and blockquotes
 ---
@@ -67,5 +68,5 @@ var x =  100;
 |Kien|12|Apple|
 
 #### Images
-![Beautiful](https://www.google.com.vn/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwioxOTp5IbRAhVDW5QKHQ4qAvAQjRwIBw&url=http%3A%2F%2Fweknowyourdreams.com%2Fbeautiful.html&psig=AFQjCNFo9x8IXlBjM6iz1J7OqzKiMI6s6A&ust=1482461296111594 "This is tool tip")
+![Beautiful](http://weknowyourdreams.com/images/beautiful/beautiful-08.jpg "This is tool tip")
  
